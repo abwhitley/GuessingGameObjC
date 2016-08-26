@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E92404CA1D6256C100BA1892 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E92404C91D6256C100BA1892 /* main.m */; };
+		E98D09E61D6F968D008AA4FF /* UserInput.m in Sources */ = {isa = PBXBuildFile; fileRef = E98D09E51D6F968D008AA4FF /* UserInput.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		E92404C61D6256C100BA1892 /* GuessingGameObjC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GuessingGameObjC; sourceTree = BUILT_PRODUCTS_DIR; };
 		E92404C91D6256C100BA1892 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E98D09E51D6F968D008AA4FF /* UserInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInput.m; sourceTree = "<group>"; };
+		E98D09E71D6F9697008AA4FF /* UserInput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserInput.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				E92404C91D6256C100BA1892 /* main.m */,
+				E98D09E51D6F968D008AA4FF /* UserInput.m */,
+				E98D09E71D6F9697008AA4FF /* UserInput.h */,
 			);
 			path = GuessingGameObjC;
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E92404CA1D6256C100BA1892 /* main.m in Sources */,
+				E98D09E61D6F968D008AA4FF /* UserInput.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +252,7 @@
 				E92404CF1D6256C100BA1892 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
